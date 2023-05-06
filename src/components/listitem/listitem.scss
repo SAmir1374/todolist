@@ -1,0 +1,24 @@
+.listitem-wrapper{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px dotted #333;
+    margin-bottom: 20px;
+
+
+    .clicker{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .icons{
+            color: red;
+            cursor: pointer;
+        }
+    }
+}
+
+.done{
+    background-color: red;
+}
